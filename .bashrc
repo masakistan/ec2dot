@@ -32,3 +32,5 @@ export OPENCV_IO_ENABLE_JASPER=1
 IFS=$'\n'
 
 conda activate pt36
+
+alias ntop="watch -n 0.5 nvidia-smi"
