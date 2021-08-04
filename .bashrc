@@ -34,3 +34,5 @@ IFS=$'\n'
 conda activate pt36
 
 alias ntop="watch -n 0.5 nvidia-smi"
+
+export PS1="[\[\e[31m\]\d\[\e[m\] \[\e[31m\]\A\[\e[m\]] \[\e[32m\]\h\[\e[m\] [\[\e[35m\]\w\[\e[m\]] "
