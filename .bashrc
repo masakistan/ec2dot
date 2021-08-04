@@ -35,4 +35,9 @@ conda activate pt36
 
 alias ntop="watch -n 0.5 nvidia-smi"
 
-export PS1="[\[\e[31m\]\d\[\e[m\] \[\e[31m\]\A\[\e[m\]] \[\e[32m\]\h\[\e[m\] [\[\e[35m\]\w\[\e[m\]] "
+PS1=""
+if [ ! -z "$CONDA_DEFAULT_ENV" ]
+then
+    PS1+="($CONDA_DEFAULT_ENV) "
+fi
+export PS1+="[\[\e[31m\]\d\[\e[m\] \[\e[31m\]\A\[\e[m\]] \[\e[32m\]\h\[\e[m\] [\[\e[35m\]\w\[\e[m\]] "
