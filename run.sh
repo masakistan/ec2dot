@@ -1,4 +1,4 @@
-sudo yum install zsh util-linus-user
+sudo yum install zsh util-linux-user
 
 chsh -s $(which zsh)
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
