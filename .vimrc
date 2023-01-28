@@ -4,7 +4,7 @@ set tabstop=4
 set softtabstop=4
 set expandtab
 set shiftwidth=4
-colorscheme zellner
+colorscheme habamax
 
 set cursorline
 filetype plugin indent on
